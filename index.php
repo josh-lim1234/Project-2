@@ -20,14 +20,14 @@ require 'text-logic.php';
     <label for='message'>Message</label><br>
     <textarea required minlength="8" name='description'><?php if ($description) echo $description ?></textarea> 
     <br><br>
-    <label for='number'>Number of characters to change</label><br>
+    <label for='number'>Maximum number of characters to change</label><br>
     <input required type="number" name='nochar' max='5' min='0'><br><br>
-    <label for='day'>Which characters do you want to include in your message?</label><br>
-        <label><input type='checkbox' name='days[]' value='@'> @</label><br>
-        <label><input type='checkbox' name='days[]' value='#'> #</label><br>
-        <label><input type='checkbox' name='days[]' value='$'> $</label><br>
-        <label><input type='checkbox' name='days[]' value='%'> %</label><br>
-        <label><input type='checkbox' name='days[]' value='^'> ^</label><br>
+    <label for='sym'>Which characters do you want to include in your message?</label><br>
+        <label><input type='checkbox' name='syms[]' value='@'> @</label><br>
+        <label><input type='checkbox' name='syms[]' value='#'> #</label><br>
+        <label><input type='checkbox' name='syms[]' value='$'> $</label><br>
+        <label><input type='checkbox' name='syms[]' value='%'> %</label><br>
+        <label><input type='checkbox' name='syms[]' value='^'> ^</label><br>
     <input type='submit' value='Encrypt' class='btn btn-primary btn-sm'>
 </form>
 </body>
