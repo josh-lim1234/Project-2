@@ -15,7 +15,7 @@ require 'logic.php';
 <h3>Message Encryptor</h3>
 <p>This message encryptor would replace the number of characters that you specify with the symbols that have been chosen.</p>
 
-<form method='GET' action='search.php'>
+<form method='GET' action='output.php'>
     <br>
     <label for='message'>Message</label><br>
     <textarea required minlength="8" name='description'><?php if ($description) echo $description ?></textarea> 
