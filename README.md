@@ -1,6 +1,6 @@
 # Project 2
 + By: *Josh Lim*
-+ Production URL: Not Ready Yet
++ Production URL: http://p2.jlimo.me/
 
 ## Outside resources
 https://stackoverflow.com/questions/2768314/convert-a-string-into-an-array-of-characters
