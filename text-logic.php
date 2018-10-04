@@ -1,4 +1,5 @@
 <?php
-$title = $_GET['title'] ?? '';
+$submitted = $_GET['submitted'] ?? false;
+$day = $_GET['day'] ?? null;
 $description = $_GET['description'] ?? '';
-$date = $_GET['date'] ?? '';
+
